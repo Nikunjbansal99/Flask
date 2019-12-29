@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<body>
+		<h2> My Marks are: </h2>
+		<table border = 1 align=center>
+			{% for key, value in result.items() %}
+			
+				<tr>
+					<th> {{ key }} </th>
+					<td> {{ value }} </td>
+				</tr>
+				
+			{% endfor %}
+		</table>
+		
+	</body>
+</html>
